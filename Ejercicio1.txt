@@ -1,0 +1,25 @@
+Linux Practica 2
+	Ejercicio 1.
+	
+	Apartado 1.
+	Dar permiso de ejecución al “resto de usuarios”.
+	He hecho lo siguiente: chmod o+x t2.txt
+	
+	Apartado 2.
+	Dar permiso de escritura y ejecución al “grupo”.
+	He hecho lo siguiente: chmod g+w t2.txt y chmod g+x t2.txt
+	
+	Apartado 3.
+	Quitar el permiso de lectura al “grupo” y al “resto de usuarios”.
+	He hecho lo siguiente: chmod go-r t2.txt
+	
+	Apartado 4.
+	Dar permiso de ejecución al “propietario” y permiso de escritura el “resto de usuarios”.
+	He hecho lo siguiente: chmod o+w t2.txt para la escritura y esto chmod a+x t2.txt para la ejecucion.
+	
+	Apartado 5.
+	Dar permiso de ejecución al “grupo” de todos los archivos cuyo nombre comience con la letra “e”. Nota: Si
+	no hay más de dos archivos que cumplan esa condición, se deberán crear archivos que empiecen con “e”
+	y/o modificar el nombre de archivos ya existentes para que cumplan esa condición.
+	He hecho lo siguiente: chmod g+x e*
+	
