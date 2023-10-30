@@ -1,0 +1,22 @@
+Linux Practica 2
+	Ejercicio 2.
+	
+	Apartado 1.
+	Crear un archivo llamado ej31 , que contendrá el nombre de los archivos del directorio padre del directorio
+	de trabajo.
+	He realizado las siguientes operaciones:
+		1-touch ej31 | ls /home > ej31
+		2-cat ej31
+		
+	Apartado 2.
+	Crear un archivo llamado ej32 , que contendrá las dos últimas líneas del archivo creado en el ejercicio
+	anterior.
+	He realizado las siguientes operaciones:
+		1-touch ej32 
+		2-tail -2 ej31 > ej32
+		3-cat ej32
+		
+	Apartado 3.
+	Añadir al final del archivo ej32 , el contenido del archivo ej31 .
+	He realizado las siguientes operaciones:
+		1-tail ej31 >> ej32
