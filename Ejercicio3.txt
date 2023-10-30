@@ -1,0 +1,22 @@
+Linux Practica 2
+	Ejercicio 3.
+	
+	Apartado 1.
+	
+	Mostrar por pantalla, el listado (en formato largo) de los últimos 6 archivos del directorio padre en el
+	directorio de trabajo.
+	
+	He realizado las siguientes operaciones:
+		1- ls -l /home | tail -6
+		
+	Apartado 2.
+	
+	La orden wc muestra por pantalla el número de líneas, palabras y caracteres de un archivo (consulta la
+	orden man para conocer más sobre ella). Utilizando dicha orden, mostrar por pantalla el número de
+	caracteres (sólo ese número) de los archivos del directorio de trabajo que comiencen por los caracteres “e”
+	o “f”.
+	
+	He realizado las siguientes operaciones:
+		1- wc - c e* f*
+	
+	
